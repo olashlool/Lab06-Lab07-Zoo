@@ -8,7 +8,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Zoo.Bird">
-    <Position X="15.25" Y="0.5" Width="2.5" />
+    <Position X="14.75" Y="0.5" Width="2.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAIAAAAAAAAAAAAABAAAAACAAAAAAAAAAAAA=</HashCode>
       <FileName>Classes\Classes Layer 02\Bird.cs</FileName>
@@ -19,9 +19,7 @@
     <InheritanceLine Type="Zoo.Animals" FixedToPoint="true">
       <Path>
         <Point X="10.125" Y="2.247" />
-        <Point X="10.125" Y="2.625" />
-        <Point X="9.875" Y="2.625" />
-        <Point X="9.875" Y="3" />
+        <Point X="10.125" Y="3" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
@@ -59,44 +57,64 @@
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAIAAAAAAAAAAAAQAAIAAAAAAAgAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAARACIAAAAAAAgAAAAAAAAA=</HashCode>
       <FileName>Classes\Classes Layer 04\Platypus.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Zoo.Elephant">
     <Position X="1" Y="5.25" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAIAAAAAAAAAAAAQAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAQACAAAAAAAAgAAAAAAAAA=</HashCode>
       <FileName>Classes\Classes Layer 04\Elephants.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Zoo.Snake">
     <Position X="8" Y="5.5" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAABAA=</HashCode>
       <FileName>Classes\Classes Layer 04\Snake.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Zoo.Crocodiles">
     <Position X="11" Y="5.5" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAARACAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Classes\Classes Layer 04\Crocodiles.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Zoo.Falcon">
-    <Position X="16.75" Y="3" Width="2.5" />
+    <Position X="16.25" Y="3" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAIAAAAAAAAAAAAQBAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAARBAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Classes\Classes Layer 04\Falcon.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Zoo.BirdTurkey">
-    <Position X="13.5" Y="3" Width="2.5" />
+    <Position X="13.25" Y="3" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQBAAAAACAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAARBAAAAACAAAAAAAAAAAAA=</HashCode>
       <FileName>Classes\Classes Layer 04\BirdTurkey.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
+  <Interface Name="Zoo.LayEggs">
+    <Position X="15" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LayEggs.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Zoo.Swim">
+    <Position X="16.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Swim.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

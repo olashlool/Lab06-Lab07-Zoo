@@ -6,10 +6,16 @@ namespace Zoo
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("=======================================Mammal=========================================");
+            Console.WriteLine();
             MammalCalls();
-            Console.WriteLine("======================================");
+            Console.WriteLine();
+            Console.WriteLine("=======================================Reptile========================================");
+            Console.WriteLine();
             ReptileCalls();
-            Console.WriteLine("======================================");
+            Console.WriteLine();
+            Console.WriteLine("=========================================Bird=========================================");
+            Console.WriteLine();
             BirdCall();
         }
         static void BirdCall()
@@ -18,8 +24,8 @@ namespace Zoo
             {
                 Name = "Bird Turkey"
             };
-            
-            Bird falcon = new Falcon()
+
+            Falcon falcon = new Falcon()
             {
                 Name = "Falcon"
             };
@@ -41,6 +47,7 @@ namespace Zoo
             {
                 Console.WriteLine("I'm from type not-Migrates");
             }
+            Console.WriteLine($"{falcon.Name} lay eggs in {falcon.LayEggs()}");
         }
         static void MammalCalls()
         {
@@ -54,8 +61,9 @@ namespace Zoo
                 Name = "Ducky"
             };
 
-            Console.WriteLine($"{babar.Name} sounds like this : {babar.MakeNoise()} and has {babar.NumberOfEyes} eyes");
+            Console.WriteLine($"{babar.Name} sounds like this : {babar.MakeNoise()} and has {babar.NumberOfEyes} eyes {babar.Swimming()}");
             Console.WriteLine($"{ducky.Name} have type fur : {ducky.FurType}");
+            Console.WriteLine($"{ducky.Name} lay eggs in : {ducky.LayEggs()}, {ducky.Swimming()}");
             Console.WriteLine(ducky.ProduceVenom());
         }
         static void ReptileCalls()
@@ -70,8 +78,8 @@ namespace Zoo
                 Name = "Nagaina"
             };
 
-            Console.WriteLine($"This donatello has {donatello.ScaleColor} scales");
-            Console.WriteLine($"This {nagaina.Name} has sound: {nagaina.MakeNoise()}");
+            Console.WriteLine($"This {donatello.Name} has {donatello.ScaleColor} scales {donatello.Swimming()}");
+            Console.WriteLine($"This {nagaina.Name} has sound: {nagaina.MakeNoise()} and lay eggs in {nagaina.LayEggs()}");
 
         }
     }

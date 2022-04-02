@@ -10,7 +10,7 @@ and methods can be pieced together using the 4 Object Oriented Principles.
 3. To run the app, go to Debug > Start Without Debugging (or press ctrl+F5).
 
 ## UML Diagram
-![Zoo Diagram](Assest/ZooDiagram.png)
+![Zoo Diagram](Assest/ZooDiagram2.png)
 
 ## Object Oriented Principles
 
@@ -45,3 +45,15 @@ This states that content of all types is both grouped (logically, and per the co
 - Public - any group (class) can access it (all custom classes in this application are public)
 - Private - access is limited to inside the group (class) for which 'private' is specified (not used in this application)
 - protected - access is limited to inside the group (class) and any derivatives of it (not used in this application)
+
+#### INTERFACES
+>Like classes, interfaces are collections of members that can be inherited by deriving classes. 
+Like abstract classes, an interface can't be instantiated, and its members must be resolved before a 
+concrete descendent is instantiated. Unlike abstract classes, an interface can contain only properties and 
+methods, and it's intended to address only behaviors (rather than characteristics) of derived instances. 
+Also unlike abstract classes, a deriving class can inherit from an unlimited number of interfaces 
+(it isn't bound by the single inheritance rule governing classes). The real power of an interface is 
+that it offers common (ie - library) behaviors that can enable interaction between objects of dissimilar 
+classes.
+
+In this project, interfaces are demonstrated through LayEggs AND Swim... Mostly animals Lay Eggs.

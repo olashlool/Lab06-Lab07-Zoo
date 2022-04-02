@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Zoo
 {
-    public class Elephant : Placental
+    public class Elephant : Placental, Swim
     {
         public override string FurType { get; set; } = "have hair all over their bodies but unevenly scattered.";
         public override string Name { get; set; }
@@ -13,6 +13,11 @@ namespace Zoo
         public override string MakeNoise()
         {
             return "Trumpet call";
+        }
+        
+        public string Swimming()
+        {
+            return "elephants are natural-born swimmers.";
         }
     }
 }
